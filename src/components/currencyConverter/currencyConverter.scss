@@ -1,0 +1,29 @@
+.currency-converter {
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        grid-gap: 10px 30px;
+        &:not(:last-child) {
+            margin-bottom: 40px;
+        }
+    }
+    &__select {
+        text-align: end;
+        font-size: 20px;
+        margin: 0 auto;
+        border: none;
+        width: 100%;
+    }
+
+    &__item {
+        font-size: 20px;
+        text-align: end;
+    }
+
+    &__input {
+        // border: none;
+        text-align: start;
+        font-size: 20px;
+    }
+}
